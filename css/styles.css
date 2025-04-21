@@ -111,7 +111,6 @@ img {
 
 .studio-nav {
   position: relative;
-  color: #404bbf;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -454,12 +453,11 @@ img {
 
 .footer-cont {
   display: flex;
+  flex-wrap: wrap;
   align-items: baseline;
 }
 
 .footer-logo-con {
-  display: flex;
-  flex-direction: column;
   margin-right: 120px;
 }
 
@@ -489,12 +487,12 @@ img {
 }
 
 .footer-words {
-  font-weight: 500;
+ font-weight: 500;
   font-size: 16px;
-  line-height: 1.5;
+  line-height: 150%;
   letter-spacing: 0.02em;
+  color: #FFFFFF;
   margin-bottom: 16px;
-  color: #fff;
 }
 
 .footer-icon-list {
@@ -519,3 +517,4 @@ img {
  width: 40px;
   height: 40px;
 }
+
